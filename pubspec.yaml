@@ -1,0 +1,32 @@
+name: islami_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  meta: ^1.15.0
+  freezed_annotation: ^2.4.4
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+  json_annotation: ^4.9.0
+  build_runner: ^2.4.13
+  loading_indicator: ^3.1.1
+  dio: ^5.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/arabesque.png
+    - assets/images/ramadan-icon.png
